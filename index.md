@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## Welcome to Marvel Comics 
 
-You can use the [editor on GitHub](https://github.com/LaiFrance/Marvel-Comics/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+A API da Marvel Comics permite que desenvolvedores em todos os lugares acessem informações sobre a vasta biblioteca de quadrinhos da Marvel – desde o que está por vir até 70 anos atrás.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+# API DE QUADRINHOS
+## INFORMAÇÕES GERAIS DA API
+### Ponto de extremidade do serviço
+O endpoint base da API da Marvel Comics é [http(s)://gateway.marvel.com/](url)
+## Recursos
+### Você pode acessar seis tipos de recursos usando a API:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Quadrinhos: edições individuais impressas e digitais de quadrinhos, coleções e graphic novels. Por exemplo: Amazing Fantasy #15 .
+- Séries de quadrinhos: numeradas sequencialmente (bem, principalmente numeradas sequencialmente) agrupam quadrinhos com o mesmo título. Por exemplo, Uncanny X-Men .
+- Histórias em quadrinhos: componentes indivisíveis e reutilizáveis ​​dos quadrinhos. Por exemplo, a capa de Amazing Fantasy #15 ou a origem da história do Homem-Aranha desse quadrinho.
+- Eventos cômicos e crossovers: grandes histórias que alteram o universo. Por exemplo, o infinito
+- Criadores: mulheres, homens e organizações que criam quadrinhos. Por exemplo, Jack Kirby .
+- Personagens: as mulheres, homens, organizações, espécies alienígenas, divindades, animais, entidades não corpóreas, manifestações transdimensionais, personificações abstratas e bolhas amorfas verdes que ocupam o Universo Marvel (e vários universos alternativos, linhas do tempo e realidades alteradas nele) . Por exemplo, o Homem-Aranha .
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LaiFrance/Marvel-Comics/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
