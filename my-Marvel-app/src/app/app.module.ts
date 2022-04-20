@@ -10,6 +10,7 @@ import { ComicsComponent } from './comics/comics.component';
 import { PesquisarComponent } from './pesquisar/pesquisar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SettingsComponent } from './settings/settings.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { SettingsComponent } from './settings/settings.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [LoginService],
   bootstrap: [AppComponent]
