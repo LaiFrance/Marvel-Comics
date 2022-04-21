@@ -11,35 +11,31 @@
   overflow:hidden;
   width:15%;
   cursor:pointer;
+  background-color: black;
 }
 
-.sidenav:after{
-  content: '';
-  position:absolute;
-  width:80%;
-  border-bottom:1px solid rgb(50, 40, 40);
-  bottom:50%;
-  left:-100%;
-  transition-delay: all 0.5s;
-  transition: all 0.5s;
+.sidenav{
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  height: 100%;
+  line-height: 40px;
+  overflow: hidden;
+  width: 15%;
+  cursor: pointer;
+  background-color: black;
 }
 
-.sidenav:hover:after,
-.sidenav.hover:after{
-   left:100%;
+.mat-list-base .mat-list-item {
+  color: rgb(255, 255, 255);
 }
-.sidenav .text{
-   text-shadow:0px -40px 0px rgb(0, 0, 0);
-   transition:all 0.75s;
-   transform:translateY(100%) translateZ(0);
-   transition-delay:all 0.25s;
-}
-.sidenav:hover .text,
-.sidenav.hover .text{
-   text-shadow:0px -40px 0px rgba(255, 255, 255, 0);
-   transform:translateY(0%) translateZ(0) scale(1.1);
-   font-weight:600;
-}
+
+.sidenav:hover:not(.active) {
+  background-color: #555;
+  color: white;
+} 
+
+
 
 .toolbar-single-row {
 background-color:black;

@@ -18,6 +18,7 @@ import { MatCardModule} from '@angular/material/card';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {ComicsComponent} from './comics/comics.component';
+import { SearchComponent } from './search/search.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,6 +26,7 @@ import {ComicsComponent} from './comics/comics.component';
     CharacterComponent,
     CharactersComponent,
     ComicsComponent,
+    SearchComponent,
 
   ],
   imports: [

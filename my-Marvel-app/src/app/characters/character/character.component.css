@@ -10,6 +10,8 @@ img.mat-card-image {
   z-index: 1;
 }
 
+
+
 .mat-flat-button.mat-primary:hover {
   background-color: rgb(223, 13, 13);
 }
