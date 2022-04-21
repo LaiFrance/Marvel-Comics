@@ -1,33 +1,17 @@
-.section{
-  justify-content: flex-end;
-    color: white;
-    width: 100%;
-    opacity: 1.0;
-    flex-direction: row-reverse;
-    background-image:url(./city.jpg);
-    background-repeat:round;
-    background:cover;
-    padding: 10px;
-    height: 200px;
-    flex-direction: row-reverse;
-
+.sidenav-container {
+  height: 100%;
 }
 
-.dados{
-  background-color: rgba(0, 0, 0, 0.587);
-  border-radius: 20px;
-  padding: 10px;
-  width: 20%;
+.sidenav {
+  width: 150px;
 }
 
-input{
-  margin: 20px;
-  width: 300px;
-  height: 30px;
- }
-
-.bemvindo{
-  margin-top: 50px;
-  align-items: center;
-  text-align: center;
+.mat-toolbar.mat-primary {
+  background-image: url(./city.jpg);
+  background-size: cover;
+  background-color: black;
+  position: sticky;
+  height: 150px;
+  border: 20px solid black;
+  
 }

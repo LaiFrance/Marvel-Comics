@@ -1,0 +1,15 @@
+img.mat-card-image {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.mat-flat-button.mat-primary{
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.mat-flat-button.mat-primary:hover {
+  background-color: rgb(223, 13, 13);
+}

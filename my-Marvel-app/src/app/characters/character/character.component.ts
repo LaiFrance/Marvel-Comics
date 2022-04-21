@@ -6,8 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./character.component.css']
 })
 export class CharacterComponent implements OnInit {
-  @Input()
-  character: any;
+  @Input() character: any;
   constructor() { }
 
   ngOnInit() {
