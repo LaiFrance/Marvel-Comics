@@ -13,3 +13,16 @@ img.mat-card-image {
 .mat-flat-button.mat-primary:hover {
   background-color: rgb(223, 13, 13);
 }
+
+.mat-card {
+  display: block;
+  background-color: rgba(0, 0, 255, 0.68);
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+
+.mat-card:hover{
+background-color:red;
+}
