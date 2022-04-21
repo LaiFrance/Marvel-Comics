@@ -1,33 +1,30 @@
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <section class="container">
-  <form class="container">
+  <form class="container" (ngSubmit)="transferir">
     <div class="login">
-      <!-- <p>nome:{{nome}}</p>
-      <p>email:{{email}}</p>
-      <p>senha:{{senha}}</p> -->
     <div class="login-name">
       <label class="form-label" for="nome">Nome</label>
-    <input class="nome-input" type="text" id="nome"/>
+    <input class="nome-input" type="text" id="nome"[(ngModel)]="nome" name="nome" />
   </div>
 
       <div class="login-input">
       <label class="form-label" for="email">Email</label>
     <input class="email-input" type="text" id="email"
-
+    [(ngModel)]="email" name="email"
     />
   </div>
 
       <div class="senha-login">
     <label for="senha">Senha</label>
     <input class="senha-input" type="number" id="senha"
-
+    [(ngModel)]="senha" name="senha"
     />
       </div>
 
       <div class="button-login">
+    <a to="home">
     <button class="btn-login" type="submit">Entrar</button>
+    </a>
   </div>
   </div>
   </form>

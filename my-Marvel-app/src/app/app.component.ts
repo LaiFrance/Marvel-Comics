@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-Marvel-app';
+    nome!: string;
+    email!: string;
+    senha!: number;
 }

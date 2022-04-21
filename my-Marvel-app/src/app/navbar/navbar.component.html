@@ -1,27 +1,30 @@
-<mat-sidenav-container class="sidenav-container">
-  <mat-sidenav #drawer class="sidenav" fixedInViewport
-      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
-      [mode]="(isHandset$ | async) ? 'over' : 'side'"
-      [opened]="(isHandset$ | async) === false">
-    <mat-toolbar>Menu</mat-toolbar>
-    <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
-    </mat-nav-list>
-  </mat-sidenav>
-  <mat-sidenav-content>
-    <mat-toolbar color="primary">
-      <button
-        type="button"
-        aria-label="Toggle sidenav"
-        mat-icon-button
-        (click)="drawer.toggle()"
-        *ngIf="isHandset$ | async">
-        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
-      </button>
-      <span>my-Marvel-app</span>
-    </mat-toolbar>
-    <!-- Add Content Here -->
-  </mat-sidenav-content>
-</mat-sidenav-container>
+<section class="section">
+  <div class="dados">
+</div>
+</section>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div class="w3-bar w3-black">
+  <a href="home" class="w3-bar-item w3-button">Home</a>
+  <a href="caracteres" class="w3-bar-item w3-button">Personagens</a>
+  <a href="comics" class="w3-bar-item w3-button">Quadrinhos</a>
+  <a href="pesquisar" class="w3-bar-item w3-button">Pesquisar</a>
+  <a href="login" class="w3-bar-item w3-button">Sair</a>
+</div>
+<input
+className="input-seach"
+type="text"
+name="inputbar"
+/>
+<button
+type="submit"
+value="Pesquisar"
+>
+Pesquisar
+</button>
+
+<nav class="links">
+  <ul>
+
+  </ul>
+

@@ -1,11 +1,9 @@
 import { LoginService } from './login/login.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import { PersonagensComponent } from './personagens/personagens.component';
 import { ComicsComponent } from './comics/comics.component';
 import { PesquisarComponent } from './pesquisar/pesquisar.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -18,17 +16,21 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-
+import { FormsModule } from '@angular/forms';
+import { CharacterComponent } from './characters/character/character.component';
+import { CharactersComponent } from './characters/characters.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     LoginComponent,
-    PersonagensComponent,
     ComicsComponent,
     PesquisarComponent,
     SettingsComponent,
-    NavbarComponent
+    NavbarComponent,
+    CharacterComponent,
+    CharactersComponent
   ],
   imports: [
     BrowserModule,
@@ -39,9 +41,12 @@ import { MatListModule } from '@angular/material/list';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    FormsModule,
+    HttpClientModule
+
   ],
-  providers: [LoginService],
+  providers: [AppRoutingModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

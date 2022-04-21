@@ -5,13 +5,16 @@ import {LoginService} from './login.service';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
-export class LoginComponent implements OnInit {
+export class LoginComponent  {
+ nome!: string;
+ email!: string;
+ senha!: number;
 
-
-
-  constructor(public loginService: LoginService) { }
-
-  ngOnInit(): void {
-  }
+  transferir(){
+console.log('Solicitada nova transferência');
+console.log('Nome: ', this.nome);
+console.log('Email: ', this.email);
+console.log('Senha: ', this.senha);
+}
 
 }
