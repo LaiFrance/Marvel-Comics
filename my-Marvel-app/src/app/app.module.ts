@@ -17,12 +17,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatCardModule} from '@angular/material/card';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {FlexLayoutModule} from '@angular/flex-layout';
+import {ComicsComponent} from './comics/comics.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     CharacterComponent,
     CharactersComponent,
+    ComicsComponent,
 
   ],
   imports: [
