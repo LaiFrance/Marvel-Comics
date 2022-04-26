@@ -1,0 +1,65 @@
+* {
+    display:flexbox;
+    margin: 5px;
+    margin-left: 2%;
+}
+
+.mat-card-image {
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+  position: absolute;
+ justify-items: center;
+ justify-content: center;
+ margin-left: 40%;
+ margin-top: 30px;
+  width: 40%;
+  text-align: center;
+ 
+}
+
+
+.mat-card-title{
+    
+    color: #202c2d;
+    background: #FFFFFF;
+    text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93;
+text-align: justify;
+    font-size:x-large;
+    font-size: 18px;
+    margin-bottom: 50px;
+    letter-spacing: 0rem;
+    line-height: 1.8;
+    width:100%;
+   
+}
+element.style {
+    padding: 25px;
+    flex: 1 1 50%;
+    box-sizing: border-box;
+    max-width: 90%;
+    display: flex;
+
+}
+.mat-flat-button{
+    box-shadow:inset 0px 1px 0px 1px #0e0e0e;
+	background:linear-gradient(to bottom, #0b0a0a 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border:1px solid #17171c;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:17px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 50px #fc000d;
+}
+.mat-flat-button:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.mat-flat-button:active {
+	position:relative;
+	top:1px;
+}

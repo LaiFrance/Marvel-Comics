@@ -1,0 +1,18 @@
+<div fxFlex fxLayout="column">
+    <div fxLayout="row wrap">
+      <div fxFlex="25" fxFlex.md="33" fxFlex.sm="50" fxFlex.xs="100" fxLayout="column" 
+      *ngFor="let avengers of allAvengers | async"
+        style="padding: 20px;">
+        <mat-card-title>
+            {{avengers.name}}
+          </mat-card-title>
+        <img mat-card-image src="{{avengers.thumbnail.path}}.{{avengers.thumbnail.extension}}" alt="{{avengers.title}}"> 
+        <mat-card-title>
+          {{avengers.description}}
+        </mat-card-title>
+        <mat-card-footer>
+          <a href="{{avengers.urls[0].url}}" target="_blank" fxFlex mat-flat-button color="primary">
+         HQS DOS VINGADORES
+          </a>
+
+        </mat-card-footer>

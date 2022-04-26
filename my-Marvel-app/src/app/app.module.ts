@@ -19,6 +19,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {ComicsComponent} from './comics/comics.component';
 import { SearchComponent } from './search/search.component';
+import { AvengersComponent } from './avengers/avengers.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +28,7 @@ import { SearchComponent } from './search/search.component';
     CharactersComponent,
     ComicsComponent,
     SearchComponent,
+    AvengersComponent,
 
   ],
   imports: [

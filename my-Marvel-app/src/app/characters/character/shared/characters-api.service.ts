@@ -15,7 +15,7 @@ export class CharactersApiService {
 
   PUBLIC_KEY = '361eba613405dd1d03cef36a83c1f2a6';
   HASH='36ab56aa414a6c27e6c0442502223b99';
-  URL_API = `https:gateway.marvel.com/v1/public/characters?ts=1&apikey=${this.PUBLIC_KEY}&hash=${this.HASH}`;;
+  URL_API = `https://gateway.marvel.com:443/v1/public/characters?limit=100%20&apikey=${this.PUBLIC_KEY}&hash=${this.HASH}`;;
 
   constructor(private http: HttpClient ) { }
 

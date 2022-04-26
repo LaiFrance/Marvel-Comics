@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { CharactersComponent } from './characters/characters.component';
 import { ComicsComponent } from './comics/comics.component';
-
+import {AvengersComponent} from './avengers/avengers.component';
 const routes: Routes = [
   {
     path: '', redirectTo: '/characters', pathMatch: 'full'
@@ -12,6 +12,10 @@ const routes: Routes = [
   },
   {
     path: 'comics', component: ComicsComponent
+  },
+
+  {
+    path: 'avengers', component: AvengersComponent
   }
 ];
 @NgModule({
