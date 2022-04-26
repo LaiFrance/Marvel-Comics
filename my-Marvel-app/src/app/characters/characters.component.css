@@ -1,0 +1,17 @@
+.mat-card {
+    display: block;
+    background-color: rgba(0, 0, 255, 0.68);
+    font-size: 20px;
+    font-weight: 500;
+    
+  }
+  
+  
+  .mat-card:hover{
+  background-color:red;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  }

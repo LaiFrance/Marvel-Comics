@@ -1,5 +1,10 @@
+html body {
+  font-family: "Roboto","Trebuchet MS",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+}
 
 img.mat-card-image {
+  border-radius:5px;
   min-height: 200px;
   max-height: 200px;
 }
@@ -21,4 +26,21 @@ img.mat-card-image {
   display: block;
   font-size: 20px;
   font-weight: 500;
+}
+
+.ng-star-inserted {
+ 
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+
+.ng-star-inserted:hover{
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
 }
