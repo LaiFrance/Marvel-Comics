@@ -20,6 +20,9 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import {ComicsComponent} from './comics/comics.component';
 import { SearchComponent } from './search/search.component';
 import { AvengersComponent } from './avengers/avengers.component';
+import { LoginPageComponent } from './loginpage/loginpage.component';
+import { HomeComponent } from './home/home.component';
+// import {LoginComponent} from './login/login';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +32,9 @@ import { AvengersComponent } from './avengers/avengers.component';
     ComicsComponent,
     SearchComponent,
     AvengersComponent,
+    LoginPageComponent,
+    HomeComponent,
+   // LoginComponent,
 
   ],
   imports: [
