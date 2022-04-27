@@ -1,6 +1,9 @@
 # Marvel-Comics
 API da Marvel usando Angular
 
+# LINK DA APRESENTAÇÃO 
+[https://www.canva.com/design/DAE_Aj2e3IE/ufPtoCBAiK4_LNyQycjI8Q/view?utm_content=DAE_Aj2e3IE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](url)
+
 ## Welcome to Marvel Comics
 ### A API da Marvel Comics permite que desenvolvedores em todos os lugares acessem informações sobre a vasta biblioteca de quadrinhos da Marvel – desde o que está por vir até 70 anos atrás.
 
