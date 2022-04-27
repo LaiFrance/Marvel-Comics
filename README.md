@@ -17,3 +17,13 @@ O endpoint base da API da Marvel Comics é [http(s)://gateway.marvel.com/](url)
 - Eventos cômicos e crossovers: grandes histórias que alteram o universo. Por exemplo, o infinito
 - Criadores: mulheres, homens e organizações que criam quadrinhos. Por exemplo, Jack Kirby .
 - Personagens: as mulheres, homens, organizações, espécies alienígenas, divindades, animais, entidades não corpóreas, manifestações transdimensionais, personificações abstratas e bolhas amorfas verdes que ocupam o Universo Marvel (e vários universos alternativos, linhas do tempo e realidades alteradas nele) . Por exemplo, o Homem-Aranha .
+
+
+## CAMINHOS DAS PÁGINAS 
+- LOGIN = /loginpage
+- HOME = /home
+- CARACTERS = /caracters
+- COMICS = /comics
+- AVENGERS = /avengers
+- SEARCH = /search
+- SAIR = /loginpage
