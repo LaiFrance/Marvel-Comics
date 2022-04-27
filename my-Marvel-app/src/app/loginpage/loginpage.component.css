@@ -1,123 +1,97 @@
-.wanda{
-    margin-left:-1600px;
-}
+.container {
+  padding: 10px;
+  text-align:center;
+  font-size:20px;
+ }
 
-.strange{
-    width:100%;
-    height:100%;
-}
-
-.box{
-    height: 290px;
-    box-shadow: 5px 5px 10px rgb(7, 8, 7), 
-            0px 0 rgb(88, 62, 62)
-}
-
-.mat-typography{
-    background-color: #070404;
-}
-
-.box, .example-form {
-text-align: center;
-margin-top: 10px;
+ button{
+   border-radius: 4px;
+   margin-top: 20px;
+  padding: 10px;
+ }
 
 
-}
+ button:hover{
+   background-color: #ea5104;
+ }
 
-.mat-stroked-button{
-    box-shadow:inset 0px 1px 0px 1px #0e0e0e;
-	background:linear-gradient(to bottom, #0b0a0a 5%, #bc3315 100%);
-	background-color:#d0451b;
-	border:1px solid #17171c;
-}
+ input{
+   height: 40px;
+   display: block;
+   text-align: center;
+   border-radius: 4px;
+   color: inherit;
+   border: 1px solid;
+   outline: none;
+   margin-top: 4px;
+   width: 80%;
+ }
 
-.app-header {
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
-}
-.login-wrapper {
-  height: 100%;
-  background-color: #070404;
-  
-}
-.positronx {
-  text-decoration: none;
-  color: #070404;
-}
-.box {
-    border: 2px solid rgb(10, 8, 8);
-  position: relative;
-  top: 0;
-  opacity: 1;
-  float: left;
-  padding: 60px 50px 40px 50px;
-  width: 100%;
-  background: #ffffffb5;
-  border-radius: 10px;
-  transform: scale(1);
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  z-index: 5;
-  max-width: 330px;
-}
-.box.back {
-  transform: scale(.95);
-  -webkit-transform: scale(.95);
-  -ms-transform: scale(.95);
-  top: -20px;
-  opacity: .8;
-  z-index: -1;
-}
+ label{
+   color: inherit;
+     margin-bottom: 4px;
+     font-size: 15px;
+     margin-top: 5px;
+ }
 
-.login-wrapper .example-form {
-  min-width: 100%;
-  max-width: 400px;
-  width: 100%;
-}
-.login-wrapper .example-full-width,
-.login-wrapper .btn-block {
-  width: 60%;
-}
-.login-wrapper mat-card-header {
-  text-align: center;
-  width: 100%;
-  display: block;
-  font-weight: 700;
-}
-.login-wrapper mat-card-header mat-card-title {
-  font-size: 30px;
-  margin: 0;
-}
-.login-wrapper .mat-card {
-  padding: 40px 70px 50px;
-}
-.login-wrapper .mat-stroked-button {
-    margin-top: 50px;
-  border: 1px solid currentColor;
-  line-height: 34px;
-  box-shadow:inset 0px 1px 0px 1px #0e0e0e;
-  background:linear-gradient(to bottom, #753939 5%, #bc3315 100%);
-  background-color:#100c0b;
-  border:1px solid #17171c;
-  
-}
-.login-wrapper .mat-form-field-appearance-legacy .mat-form-field-infix {
-  padding: 0.8375em 0;
-}
 
-.ng-tns-c71-0,.ng-tns-c71-1{
-display:flex;
-margin-top: 10px;
-margin:10px;
-width: 300px;
-height: 40px;
-}
-.ng-tns-c71-1{
-margin-top: 20px;
+ .login{
+  opacity: 0.9;
+  background-image: url(./pontos.png);
+  background-size: cover;
+  background-color: #00000079;
+   zoom: 70%;
+      text-align: left;
+       padding: 30px;
+       transform: scale(1.5);
+       border-radius: 4px;
+       background-color: #ffffffd6;
+       width: 400px;
+       height: 400px;
+       box-shadow: 0px 10px 13px -7px #000000, 5px 5px 16px 6px rgb(0 0 0 / 53%);
+       border: 5px solid #ff0000e9;
+   }
 
-}
+   input{
+     margin: 10px;
+    margin-top: 15px;
+     display: flex;
+     margin-left: 10%;
+
+   }
+
+   button{
+     border-radius:10px;
+     text-align: center;
+     justify-content: center;
+     margin-left: 40%;
+   }
+
+   label{
+    border-radius:5px;
+     padding: 8px;
+     background-color:rgba(255, 0, 0, 0.89);
+     border: 0.5px solid rgba(14, 13, 13, 0.332);
+
+   }
+
+
+ form{
+background-image: url(./marvel.jpg);
+   background-repeat: cover;
+   text-align: left;
+   flex-direction: column;
+   display: block;
+   align-items: center;
+   background-size: cover;
+   display: flex;
+   flex-direction: row;
+   height: 100vh;
+   justify-content: center;
+   width: 100vw;
+ }
+
+
+
+
+

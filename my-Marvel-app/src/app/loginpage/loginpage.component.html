@@ -1,20 +1,30 @@
-<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
-    <img class="strange" src="../../assets/img/Doutor-Estranho.jpg" width="100%">
-    <img class="wanda" src="../../assets/img/scarlet-witch-transparent.png" width="300px">
-    <mat-card class="box">
-      <mat-card-header>
-        <mat-card-title>MARVEL COMICS </mat-card-title>
-      </mat-card-header>
-      <form class="example-form">
-        <mat-card-content>
-          <mat-form-field class="example-full-width">
-            <input matInput placeholder="Usuário">
-          </mat-form-field>
-          <mat-form-field class="example-full-width">
-            <input matInput placeholder="Senha">
-          </mat-form-field>
-        </mat-card-content>
-        <button mat-stroked-button color="accent" class="btn-block">Log in</button>
-      </form>
-    </mat-card>
+
+  <form class="container">
+    <div class="login">
+    <div class="login-name">
+      <label class="form-label" for="nome">Nome</label>
+    <input class="nome-input" type="text" id="nome" name="nome" />
   </div>
+
+      <div class="login-input">
+      <label class="form-label" for="email">Email</label>
+    <input class="email-input" type="text" id="email"
+     name="email"
+    />
+  </div>
+
+      <div class="senha-login">
+    <label for="senha">Senha</label>
+    <input class="senha-input" type="number" id="senha"
+    name="senha"
+    />
+      </div>
+
+      <div class="button-login">
+    <a to="home">
+    <button class="btn-login" type="submit">Entrar</button>
+    </a>
+  </div>
+  </div>
+  </form>
+ 
