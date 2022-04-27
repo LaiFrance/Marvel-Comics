@@ -22,7 +22,7 @@ O endpoint base da API da Marvel Comics é [http(s)://gateway.marvel.com/](url)
 ## CAMINHOS DAS PÁGINAS 
 - LOGIN = /loginpage
 - HOME = /home
-- CARACTERS = /caracters
+- CHARACTERS = /characters
 - COMICS = /comics
 - AVENGERS = /avengers
 - SEARCH = /search
