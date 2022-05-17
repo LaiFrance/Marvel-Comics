@@ -1,5 +1,7 @@
 # Marvel-Comics
 API da Marvel usando Angular
+![API DA MARVEL](https://user-images.githubusercontent.com/91226847/168734579-926f3697-63ac-483c-b1c8-4bb322406616.png)
+
 
 # LINK DA APRESENTAÇÃO 
 [https://www.canva.com/design/DAE_Aj2e3IE/ufPtoCBAiK4_LNyQycjI8Q/view?utm_content=DAE_Aj2e3IE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](url)
